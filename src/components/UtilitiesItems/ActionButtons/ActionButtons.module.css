@@ -1,0 +1,26 @@
+.actionBtn {
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.actionBtn__delete {
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    left: 0;
+}
+
+.actionBtn__delete:disabled {
+    border: 1px solid #7f8fa6;
+    color: #7f8fa6;
+    background-color: #dcdde1;
+}
